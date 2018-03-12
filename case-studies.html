@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<title>Noble</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body ng-controller="whoWeAreCtrl">
+	<header class="header innerHeader clearfix">
+		<div class="headerInner clearfix">
+			<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+			<div class="btnMobileNav">
+				<span class="bar bar1"></span>
+				<span class="bar bar2"></span>
+				<span class="bar bar3"></span>
+			</div>
+			<ul class="topNav">
+				<li><a href="our-history.html">Our History</a></li>
+				<li><a href="who-we-are.html">Who We Are</a></li>
+				<li><a href="what-we-do.html">What we do</a></li>
+				<li><a href="our-portfolio.html">Our Portfolio</a></li>
+				<li><a class="active" href="case-studies.html">Case Studies</a></li>
+				<li><a href="what-they-say.html">What They Say</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="bannerInner clearfix">
+		<div class="wrapper clearfix">
+			<h2>Case Studies</h2>
+		</div>
+	</div>
+	<div class="caseStudiesWrap clearfix">
+		<div class="wrapper clearfix">
+			<div class="caseStudiesLeft">
+				<div class="clearfix">
+					<a id="carouselPrev1" href="javascript:void(0);" class="btnPrev"><img src="images/prevArrow.png" alt=""></a>
+	                <a id="carouselNext1" href="javascript:void(0);" class="btnNext"><img src="images/nextArrow.png" alt=""></a>
+					<div id="carouselAllReviews" class="owl-carousel">
+						<div class="hotelItems">
+							<div class="hotelItemInner clearfix">
+								<img src="images/hotel1.jpg" alt="">
+								<h4>Hyatt Atlanta Midtown</h4>
+								<a href="javascript:void(0);" ng-click="getCaseStudies('CaseStudies/Hyatt-Atlanta-Midtown.html')">View Case Study</a>
+							</div>
+						</div>
+						<div class="hotelItems">
+							<div class="hotelItemInner clearfix">
+								<img src="images/hotel2.jpg" alt="">
+								<h4>Courtyard by Marriott <br>Charleston SC Historic<br> District</h4>
+								<a href="javascript:void(0);" ng-click="getCaseStudies('CaseStudies/Courtyard-by-Marriott.html')">View Case Study</a>
+							</div>
+						</div>
+						<div class="hotelItems">
+							<div class="hotelItemInner clearfix">
+								<img src="images/hotel3.jpg" alt="">
+								<h4>Courtyard by Marriott <br>Downtown Decatur at <br>Emory University / CDC</h4>
+								<a href="javascript:void(0);" ng-click="getCaseStudies('CaseStudies/Courtyard-by-Marriott-Downtown.html')">View Case Study</a>
+							</div>
+						</div>
+						<div class="hotelItems">
+							<div class="hotelItemInner clearfix">
+								<img src="images/hotel4.jpg" alt="">
+								<h4>Memphis Marriott East</h4>
+								<a href="javascript:void(0);" ng-click="getCaseStudies('CaseStudies/Memphis-Marriott-East.html')">View Case Study</a>
+							</div>
+						</div>
+						<div class="hotelItems">
+							<div class="hotelItemInner clearfix">
+								<img src="images/hotel5.jpg" alt="">
+								<h4>Hyatt Place &amp; Hyatt<br> House portfolio</h4>
+								<h5>Boston, Princeton, Paramus,<br> Miami, Atlanta, Dallas/Ft.<br> Worth &amp; Minneapolis</h5>
+								<a href="javascript:void(0);" ng-click="getCaseStudies('CaseStudies/Hyatt-Place.html')">View Case Study</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="caseStudiesRight">
+				<div ng-include="pageUrl" scope="" autoscroll="true" onload=""></div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer clearfix">
+		<div class="wrapper clearfix">
+			<ul class="footNav clearfix">
+				<li><a href="our-history.html">Our History</a></li>
+				<li><a href="who-we-are.html">Who We Are</a></li>
+				<li><a href="what-we-do.html">What we do</a></li>
+				<li><a href="our-portfolio.html">Our Portfolio</a></li>
+				<li><a class="active" href="case-studies.html">Case Studies</a></li>
+				<li><a href="what-they-say.html">What They Say</a></li>
+				<li><a href="mailto:info@nobleinvestment.com">Contact Us</a></li>
+			</ul>
+			<div class="copyRight clearfix">
+				<div class="fooLeft">
+					<p>Copyright 2015 Noble Investment Group LLC<br> Monarch Tower | 3424 Peachtree Road, NE | Atlanta, GA 30326 | 404.419.1000</p>
+				</div>
+				<div class="fooRight">
+					<p><a href="http://myriann.com/" target="_blank">Made by Myriann</a></p>
+					<div class="fooSocial">
+						<ul class="socialIcon">
+							<li><a target="_blank" href="https://www.facebook.com/nobleinvestment"><img src="images/fbIcon.png" alt=""></a></li>
+							<li><a target="_blank" href="https://twitter.com/NobleInvestment"><img src="images/twitterIcon.png" alt=""></a></li>
+							<li><a target="_blank" href="http://instagram.com/nobleinvestment"><img src="images/instagramIcon.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/app.mdl.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/TweenMax.min.js"></script> 
+	<script src="js/jquery.noble.js"></script>
+	<script>
+		function carouselAllReviews(){
+			var owl = $("#carouselAllReviews");
+			owl.owlCarousel({
+				items : 1, //10 items above 1000px browser width
+				itemsDesktop : [1199,1], //5 items between 1000px and 901px
+				itemsDesktopSmall : [979,1], // 3 items betweem 900px and 601px
+				itemsTablet: [768,1], //2 items between 600 and 0;
+				itemsMobile : [639,1], // itemsMobile disabled - inherit from itemsTablet option
+				//scrollPerPage: true,
+				slideSpeed:600
+			});
+
+			// Custom Navigation Events
+			$("#carouselNext1").click(function(){
+				owl.trigger('owl.next');
+			});
+			$("#carouselPrev1").click(function(){
+				owl.trigger('owl.prev');
+			});
+		}
+
+		$(function(){
+			var winWidth = $(window).width();
+			if(winWidth >= 768){
+				$("#carouselAllReviews").removeClass("owl-carousel");
+			}
+			else{
+				$("#carouselAllReviews").addClass("owl-carousel");	
+				carouselAllReviews();
+			}
+			
+			$(window).on("resize", function(){
+				winWidth = $(window).width();
+				if(winWidth >= 768){
+					$("#carouselAllReviews").removeClass("owl-carousel");
+				}
+				else{
+					$("#carouselAllReviews").addClass("owl-carousel");	
+					carouselAllReviews();
+				}
+			});
+			
+		})
+	</script>
+</body>
+</html>

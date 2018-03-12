@@ -1,0 +1,277 @@
+@media (min-width:320px) and (max-width:767px){
+	*{ flex-wrap: wrap; -ms-flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+	.header{ padding: 10px 0; background: url(../images/headerBg.jpg) 0 0 no-repeat; background-size: cover;}
+	.homeNavBg{ height: 66px; }
+	.headerInner{ padding: 0 10px; }
+	.logo{ width: 60px; }
+	.btnMobileNav{ display: block; }
+	.topNav{ margin: 0; width: 100%; height:100%; background: url(../images/headerBg.jpg) top center no-repeat; background-size: cover; position: fixed; top: 66px; left:0 ; padding: 20px; text-align: center; display: none;}
+	.topNav li{ display: block; font-size: 14px; margin:0; }
+	.topNav li a{ padding: 10px 0; background: none;}
+	.topNav li a:hover, .topNav li a.active{ background: none; }
+	.footer{ padding: 15px 0; }
+	.footNav{ display: none; }
+	.wrapper{ padding: 0 10px; }
+	.homeBanner{ padding: 100px 0 50px 0; }
+	.homeBannerInner h2{ font-size: 42px; line-height: 52px; padding: 0 0 10px 0;}
+	.btnExplore{ padding: 16px 30px; font-size: 14px;}
+	.homeBannerInner h3{ font-size: 23px; line-height: 36px; }
+	.ourHistoryCont{ padding: 25px 0; }
+	.ourHistoryCont h3{ padding: 0; font-size: 18px; line-height: 30px; }
+	.historyBlockOuter{ padding: 30px 0 0 0; }
+	.historyRow{ flex-wrap: wrap; -ms-flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+	.historyBlock{ width: 100%; padding: 0; margin:0 0 15px 0;}
+	.historyBlockInner{ padding: 15px 15px 15px 100px; margin:0;}
+	.historyBlock.w_50{ width: 100%; margin:0 0 15px 0; }
+	.historyBlockInner h4{ font-size: 26px; padding: 0 0 5px 0;}
+	.historyBlockInner p{ font-size: 14px; }
+	.btnOurHistory{ margin:0; font-size: 16px; padding: 16px 50px; }
+	.dvCaseStudies{ padding: 25px 0; }
+	.dvCaseStudies h3{ padding: 0 0 25px 0; font-size: 28px;}
+	.caseStudiesRow{ flex-wrap: wrap; -ms-flex-wrap: wrap; -webkit-flex-wrap: wrap; justify-content:center; -ms-justify-content:center; -webkit-justify-content:center;}
+	.bxCaseStudies{ width: 280px; padding:8px; }
+	.bxCaseStudiesContent p{ min-height: auto; }
+	.dvWhatWeDo{ padding: 25px 0; }
+	.dvWhatWeDo h3{ font-size: 28px; padding: 0 0 25px 0; }
+	.dvWhatWeDo h4{ padding: 0 0 30px 0; font-size: 18px; line-height: 30px;}
+	.bxWhatWeDo{ width: 100%; margin:0 0 10px 0; }
+	.bxWhatWeDoContent{ padding: 20px 20px 30px 20px; }
+	.bxWhatWeDoContent h5{ font-size: 24px; min-height: auto; padding: 0 0 15px 0; }
+	.bxWhatWeDoContent p{ min-height: auto; padding: 0 0 20px 0;}
+	.dvlftImg{ width: 100%; }
+	.dvlftImg img{ width: 100%; height: auto; vertical-align: top; }
+	.dvWhatTheySay{ padding: 25px 0 20px 0; }
+	.dvWhatTheySay h3{ padding: 0 0 25px 0; font-size: 28px;}
+	.bxWhatTheySay{ -webkit-box-align: left; -webkit-align-items: left; -moz-box-align: left; -ms-flex-align: left; align-items: left; margin:0 0 15px 0;}
+	.WhatTheySayRow{ -webkit-box-align: left; -webkit-align-items: left; -moz-box-align: left; -ms-flex-align: left; align-items: left; margin:0 0 15px 0;}
+	.dvRightContent{ width: 100%; padding: 20px 20px 30px 20px;}
+	.dvRightContent h4{ font-size: 26px; padding: 0 0 10px 0; }
+	.dvRightContent p{ font-size: 15px; line-height: 26px; padding: 0 0 20px 0; }
+	.dvWhatTheySayLft{ width: 100%; }
+	.dvWhatTheySayLft img{ width: 100%; }
+	.dvWhatTheySayRht{ width: 100%; padding: 20px;}
+	.bxSocial{ margin:0 0 15px 0; text-align: center; padding: 15px 0;}
+	.bxSocial h5{ width: 100%; margin:0; font-size: 24px; padding: 0 0 15px 0;}
+	.socialIcon{ width: 100%; float: left; }
+	.footNav li{ margin:0 10px; }
+
+	.bannerInner{ margin:66px 0 0 0; padding: 25px 0; border-bottom: 1px #eee solid; }
+	.bannerInner h2{ font-size: 36px; }
+	.ourHistoryContent{ padding: 25px 0; }
+	.ourHistoryContent p{ font-size: 17px; line-height: 30px; padding: 0 0 20px 0; }
+	
+	.leaderShip{ padding: 40px 0; }
+	.leaderShip h3{ font-size: 24px; }
+	.carauselOuter{ padding: 40px 0 0 0; }
+	.itemInner h4{ font-size: 20px; padding: 20px 0 5px 0; }
+	.itemInner h5{ font-size: 15px; }
+	.btnPrev{ display: block;}
+	.btnNext{ display: block;}
+	.prevBttn{ display: block; width: 14px;}
+	.nextBttn{ display: block; width: 14px;}
+	.leaderShipContent{ padding: 25px 0 20px 0; }
+	.leaderShipContent h3{ padding: 0 0 20px 0; font-size: 28px;}
+	.leaderShipContent p{ font-size: 16px; line-height: 28px; }
+	.txtWhatWeDo{ padding: 25px 0 0 0; }
+	.tabWhatWeDo > .wrapper{ padding: 0; }
+	.txtWhatWeDo h4{ padding: 0 0 20px 0; font-size: 16px; line-height: 28px;}
+	.tabs li{ width: 100%; font-size: 20px; box-shadow:0 3px 6px rgba(0,0,0,0.3); -moz-box-shadow:0 3px 6px rgba(0,0,0,0.3); -webkit-box-shadow:0 3px 6px rgba(0,0,0,0.3); position: relative;}
+	.tabs li a{ height: 80px; }
+	.tabContent{ padding: 20px 0; width: 100%; float: left;}
+	.tabContent p{ font-size: 14px; line-height: 26px; }
+	.PrivateEquity{ padding: 25px 0 10px 0; }
+	.PrivateEquity h3{ font-size: 25px; padding: 0 0 20px 0; }
+	.PrivateEquityRow{ padding: 0; }
+	.PrivateEquityBoxInner{ padding: 15px; }
+	.PrivateEquityBoxInner h4{ font-size: 18px; padding: 0 0 10px 0; }
+	.PrivateEquityBoxInner p{font-size: 16px; line-height: 26px;}
+	.PrivateEquityBox{ margin:0 0 0 0; width: 100%;}
+
+	.sortingOuter{ position: relative; top: -4px; bottom: auto;}
+	.sortingOuter > .wrapper{padding: 0;}
+	.dvSortByBrand.bdrRight{ border:0; }
+	.dvSortByBrand{ padding: 0; width: 100%;}
+	.dvSortByBrand span.sortBy{ font-size: 16px; margin:10px 0 0 0;}
+	.dvViewAll a{border:0; font-size: 16px; padding: 24px 0; background: #21b0a4;}
+	.hotelListOuter{ padding: 15px 0; }
+	.hotelBlockInner{ padding: 20px 0; }
+	.hotelBolckRight a{ font-size: 14px; }
+	.dvViewMore{ padding: 25px 0 0 0;}
+	.dvViewAll{ width: 100%; padding: 0 0 15px 0;}
+	.dvSortByBrand{ margin:0 0 15px 0; padding: 0 10px;}
+	.hotelBlock{ width: 100%; padding: 0; }
+	.hotelBolckLft{ width: 100px; margin:0 10px 0 0; }
+	.hotelBolckRight h4{ font-size: 16px; line-height: 22px; padding: 0 0 5px 0;}
+	.hotelBolckRight p{ font-size: 15px; line-height: 22px; }
+	.caseStudiesLeft{ width: 100%; margin:0; position: relative;}
+	.caseStudiesWrap{ padding: 25px 0; }
+	.caseStudiesRight{ width: 100%; float: left; overflow: visible; }
+	.caseStudiesRight h3{ font-size: 22px; padding: 0 0 10px 0;}
+	.caseStudiesRight h4{ font-size: 18px; line-height: 24px; padding: 0 0 15px 0;}
+	.dvVideo{ padding: 0 0 10px 0; }
+	.caseStudiesRight p{ font-size: 16px; line-height: 28px; padding: 0 0 15px 0; }
+	.video{ height: 250px; }
+	
+	.hotelItemInner{ text-align: center; border-bottom: 0; padding: 0;}
+	.hotelItemInner h4{ font-size: 18px; padding: 10px 0; }
+	.hotelItemInner a{ font-size: 18px; }
+	.whatTheySayWrapper{ padding: 25px 0; }
+	.whatTheySayLeft{ width: 100%; margin:0 0 30px 0; position: relative; padding: 0 30px;}
+	.yearList li{ margin:0 10px; font-size: 20px; }
+	.yearList li a{ padding: 10px 0; }
+	.yearLeft{ width: 80px; margin:0 10px 0 0; }
+	.yearRight h4{ font-size: 16px; line-height: 26px; }
+	.yearRight h5{ font-size: 18px; padding: 0 0 6px 0; }
+	.yearRow{ padding: 20px 0; }
+	.yearRow:first-child{ padding:0 0 20px 0; }
+	.whatTheySayDetails{ padding: 30px 0; }
+	.whatTheySayRight{ width: 100%; overflow:visible; float: left; }
+	.whatTheySayDetails h5{ font-size: 20px; padding: 0 0 30px 0; }
+	.whatTheySayDetails h3{ font-size: 20px; line-height: 32px; padding: 0 0 30px 0; }
+	.hotelDetailsWraper{ padding: 20px 0 0 0; }
+	.hotelDetailsLeft{ width: 100%; margin:0 0 20px 0; }
+	.hotelNav li{ font-size: 14px; margin:0 0 5px 0;}
+	.hotelNav li a{ padding: 10px 15px; }
+	.hotelDetailsRight{ width: 100%; float: left; overflow:visible; }
+	.hotelDescRight{ padding: 0 0 0 20px; }
+	.hotelDetailsRight p{ font-size: 16px; line-height: 26px; padding: 0 0 20px 0;}
+	.hotelDescRight h4{ font-size: 14px; line-height: 22px; }
+	.btnViewMore{ padding: 15px 50px; font-size: 14px;}
+	
+	.modalLeft{ display: none; }
+	.modalRight{ width: 100%; padding: 50px 1px 20px 15px; }
+	.modalRight h3{ font-size: 26px; padding: 0 0 5px 0;}
+	.modalRight h4{ font-size: 16px; padding: 0 0 20px 0; }
+	.modalRight p{ font-size: 16px; line-height: 26px; padding: 0 0 20px 0; }
+	.btnClose{ width: 22px; }
+
+	.historyWrapOuter{ width: 100%; position: fixed; left: 0; top: 133px; z-index: 99; }
+	.historyWrapOuter .carouselHistory{ margin:0; }
+	.historyWrapOuter.fixHistory{ top: 133px; }
+	.ourHistoryContent{ margin:245px 0 0 0; }
+	.ourHistoryContent.fixHistory{ margin:245px 0 0 0; }
+	.historyWrapOuter.fixHistory .carouselHistory{ padding:30px 0; }
+	.ourHistoryContent{ padding: 0; }
+	.historyWrapOuter .wrapper{ padding: 0 40px; }
+	.bannerInner.fixHistory{ width: 100%; position: fixed; left: 0; top: 66px; z-index: 99; margin: 0;}
+	.dvHistoryLeft{ width: 60px; margin:0 10px 0 0; }
+	.dv_year{ padding: 6px 0; font-size: 16px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+	.dvHistoryRight{ padding: 0 0 0 12px; }
+	.bxArrow{ width: 14px; top: 6px; }
+	.dvHistoryRightInner{ border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+	.dvHistoryRightRow{ padding: 10px; }
+	.dvHistoryRightRowLeft{ width: 70px; padding: 0 15px 0 0; }
+	.dvHistoryRightRowRight h4{ font-size: 14px; line-height: 20px; }
+	.historyYear{ background: url(../images/borderBg.png) 28px center repeat-y;}
+
+	.fooLeft{ width: 100%; margin:0 0 15px 0; text-align: center; }
+	.fooRight{ width: 100%; text-align: center; }
+
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+	*{ flex-wrap: wrap; -ms-flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+	.header{ padding: 10px 0; background: url(../images/headerBg.jpg) 0 0 no-repeat; background-size: cover;}
+	.homeNavBg{ height: 97px; }
+	.headerInner{ padding: 0 15px; }		
+	.logo{ width: 90px; }
+	.topNav{ margin: 52px 0 0 0; }
+	.topNav li{ font-size: 12px; margin:0 0 0 10px; }
+	.topNav li a{ background: none; padding: 0;}
+	.topNav li a:hover, .topNav li a.active{ background: none; padding: 0; }
+	.wrapper{ padding: 0 15px; }
+	.homeBanner{ padding: 150px 0 100px 0; }
+	.homeBannerInner h2{ font-size: 58px; }
+	.homeBannerInner h3{ font-size: 30px; line-height: 42px; }
+	.ourHistoryCont{ padding: 50px 0; }
+	.ourHistoryCont h3{ padding: 0 30px; }
+	.historyBlockOuter{ padding: 50px 10px 0 10px; }
+	.historyRow{ flex-wrap: wrap; -ms-flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+	.historyBlock{ width: 50%; }
+	.historyBlock.w_100{ width: 100%; margin:14px 0 0 0; }
+	.historyBlockInner h4{ font-size: 34px; }
+	.dvCaseStudies{ padding: 50px 0 50px 0; }
+	.dvCaseStudies h3{ padding: 0 0 50px 0; }
+	.caseStudiesRow{ flex-wrap: wrap; -ms-flex-wrap: wrap; -webkit-flex-wrap: wrap;}
+	.bxCaseStudies{ width: 33.33%; padding:8px; }
+	.bxCaseStudiesContent p{ min-height: 82px; }
+	.dvWhatWeDo{ padding: 50px 0; }
+	.dvWhatWeDo h4{ padding: 0 0 50px 0; }
+	.bxWhatWeDo{ width: 50%; }
+	.bxWhatWeDoContent p{ min-height: auto; }
+	.dvlftImg{ width: 30%; }
+	.dvWhatTheySay{ padding: 50px 0 30px 0; }
+	.dvWhatTheySay h3{ padding: 0 0 50px 0; }
+	.bxWhatTheySay{ -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; }
+	.WhatTheySayRow{ -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; }
+	.dvRightContent{ width: 70%; }
+	.dvWhatTheySayLft{ width: 30%; }
+	.dvWhatTheySayRht{ width: 70%; }
+	.bxSocial{ margin:0 0 20px 0; }
+	.footNav li{ margin:0 10px; }
+
+	.bannerInner{ margin:97px 0 0 0; padding: 30px 0; }
+	.ourHistoryContent{ padding: 50px 0; }
+
+	.leaderShipContent{ padding: 50px 0 20px 0; }
+	.leaderShipContent h3{ padding: 0 0 30px 0; }
+	.txtWhatWeDo h4{ padding: 0 0 50px 0; }
+	.tabs li{ font-size: 20px; }
+	.tabs li a{ height: 80px; }
+	.tabContent{ padding: 50px 0; }
+	.PrivateEquity{ padding: 50px 0 20px 0; }
+	.PrivateEquityRow{ padding: 0; }
+	.PrivateEquityBox{ margin:0 0 20px 0; }
+
+	.dvSortByBrand{ padding:17px 15px; }
+	.dvSortByBrand span.sortBy{ font-size: 16px; margin:10px 0 0 0;}
+	.dvViewAll a{ font-size: 16px; padding: 24px 0; }
+	.hotelListOuter{ padding: 50px 0; }
+	.hotelBlock{ width: 100%; padding: 0; }
+	.caseStudiesLeft{ width: 250px; }
+	.dvRow h4{ font-size: 18px; padding: 10px 0; }
+	.dvRow a{ font-size: 18px; }
+	.whatTheySayWrapper{ padding: 50px 0; }
+	.whatTheySayLeft{ width: 120px; margin:0 50px 0 0; }
+	.yearList li{ margin:0 0 20px 0; }
+	.yearList li a{ padding: 10px 0; }
+	.yearLeft{ width: 140px; margin:0 30px 0 0; }
+	.yearRight h4{ font-size: 26px; line-height: 36px; }
+	.yearRight h5{ font-size: 20px; padding: 0 0 10px 0; }
+	.yearRow{ padding: 30px 0; }
+	.yearRow:first-child{ padding:0 0 30px 0; }
+	.whatTheySayDetails h3{ font-size: 34px; }
+	.hotelDetailsLeft{ width: 250px; margin:0 50px 0 0; }
+	.hotelNav li{ font-size: 16px; margin:0 0 10px 0;}
+	.hotelNav li a{ padding: 10px 15px; }
+	.hotelDescRight{ padding: 0 0 0 20px; }
+	.hotelDescRight h4{ font-size: 16px; line-height: 28px; }
+	.btnViewMore{ padding: 15px 50px; }
+	
+	
+	.historyWrapOuter{ width: 100%; position: fixed; left: 0; top: 186px; z-index: 99; }
+	.historyWrapOuter .carouselHistory{ margin:0; }
+	.historyWrapOuter.fixHistory{ top: 186px; }
+	.ourHistoryContent{ margin:298px 0 0 0; }
+	.ourHistoryContent.fixHistory{ margin:298px 0 0 0; }
+	.historyWrapOuter.fixHistory .carouselHistory{ padding:30px 0; }
+	.ourHistoryContent{ padding: 0; }
+	.historyWrapOuter .wrapper{ padding: 0 40px; }
+	.bannerInner.fixHistory{ width: 100%; position: fixed; left: 0; top: 97px; z-index: 99; margin: 0;}
+	.dvHistoryLeft{ width: 120px; margin:0 15px 0 0; }
+	.dvHistoryRightRow{ padding: 20px 20px 20px 0; }
+	.dvHistoryRightRowLeft{ width: 150px; padding: 0 30px 0 20px; }
+	.dvHistoryRightRowRight h4{ font-size: 24px; line-height: 36px; }
+	.historyYear{ background: url(../images/borderBg.png) 58px center repeat-y;}
+
+
+	.modal-dialog{ width: 740px; }
+
+
+}
+	
+
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+	
+}
